@@ -98,7 +98,7 @@ struct seg_tree{
         int mid=l+r>>1;
         return query1(i, j, l, mid, ind<<1) + query1(i, j, mid+1, r, ind<<1|1);
     }
-    int query(int i, int j){ 
+    lli query(int i, int j){ 
         data temp = query1(i, j, 0, n-1, 1); 
         return temp.x;
     }
