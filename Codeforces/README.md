@@ -1,4 +1,4 @@
-# Codeforces_Solution
+# Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
 ## PROBLEMS (553)

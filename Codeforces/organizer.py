@@ -6,7 +6,7 @@ CUR = os.path.join("/", "home", "thelethalcode", "Programming", "CP", "Codeforce
 README = os.path.join(CUR, "README.md")
 CODES = os.path.join(CUR, "codes")
 
-RENEW = """# Codeforces_Solution
+RENEW = """# Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
 ## PROBLEMS ({})
