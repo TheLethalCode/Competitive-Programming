@@ -2,8 +2,9 @@ import requests as rq
 import os, sys
 from time import sleep
 
-README = "README.md"
-CODES = "codes"
+CUR = os.path.join("/", "home", "thelethalcode", "Programming", "CP", "Codeforces")
+README = os.path.join(CUR, "README.md")
+CODES = os.path.join(CUR, "codes")
 
 RENEW = """# Codeforces_Solution
 Program codes for a wide range of Codeforces problem (constantly updating)

@@ -1,7 +1,7 @@
 # Codeforces_Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (552)
+## PROBLEMS (553)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -45,6 +45,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1036-C:** Classy Numbers
 - **1059-D:** Nature Reserve
 - **1061-C:** Multiplicity
+- **1065-D:** Three Pieces
 - **1070-A:** Find a Number
 - **1073-C:** Vasya and Robot
 - **1083-A:** The Fair Nut and the Best Path
