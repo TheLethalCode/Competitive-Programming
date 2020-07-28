@@ -1,7 +1,7 @@
 # Codeforces_Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (546)
+## PROBLEMS (552)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -34,6 +34,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **919-D:** Substring
 - **925-B:** Resource Distribution
 - **957-D:** Riverside Curio
+- **999-A:** Mishka and Contest
+- **999-B:** Reversing Encryption
+- **999-C:** Alphabetic Removals
+- **999-D:** Equalize the Remainders
+- **999-E:** Reachability from the Capital
+- **999-F:** Cards and Joy
 - **1010-B:** Rocket
 - **1016-C:** Vasya And The Mushrooms
 - **1036-C:** Classy Numbers
