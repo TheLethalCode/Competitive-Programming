@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (559)
+## PROBLEMS (564)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -561,3 +561,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1385-D:** a-Good String
 - **1385-E:** Directing Edges
 - **1385-G:** Columns Swaps
+- **1389-A:** LCM Problem
+- **1389-B:** Array Walk
+- **1389-C:** Good String
+- **1389-D:** Segment Intersections
+- **1389-E:** Calendar Ambiguity
