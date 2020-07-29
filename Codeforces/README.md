@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (553)
+## PROBLEMS (559)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -27,6 +27,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **767-A:** Snacktower
 - **767-B:** The Queue
 - **777-D:** Cloud of Hashtags
+- **846-A:** Curriculum Vitae
+- **846-B:** Math Show
+- **846-C:** Four Segments
+- **846-D:** Monitor
+- **846-E:** Chemistry in Berland
+- **846-F:** Random Query
 - **869-A:** The Artful Expedient
 - **869-B:** The Eternal Immortality
 - **869-C:** The Intriguing Obsession
