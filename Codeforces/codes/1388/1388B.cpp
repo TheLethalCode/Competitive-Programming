@@ -19,5 +19,11 @@ int main(int argc, char **argv)
 {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    
+    int t;
+    cin >> t;
+    while(t--){
+        int n;
+        cin >> n;
+        cout << string(n - (n+3)/4, '9') + string((n+3)/4, '8') << '\n';
+    }
 }

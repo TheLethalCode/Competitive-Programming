@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (564)
+## PROBLEMS (568)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -49,6 +49,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1010-B:** Rocket
 - **1016-C:** Vasya And The Mushrooms
 - **1036-C:** Classy Numbers
+- **1039-C:** Network Safety
 - **1059-D:** Nature Reserve
 - **1061-C:** Multiplicity
 - **1065-D:** Three Pieces
@@ -549,7 +550,6 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1381-A1:** Prefix Flip (Easy Version)
 - **1381-A2:** Prefix Flip (Hard Version)
 - **1381-B:** Unmerge
-- **1381-C:** Mastermind
 - **1383-A:** String Transformation 1
 - **1383-B:** GameGame
 - **1384-A:** Common Prefixes
@@ -561,6 +561,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1385-D:** a-Good String
 - **1385-E:** Directing Edges
 - **1385-G:** Columns Swaps
+- **1388-A:** Captain Flint and Crew Recruitment
+- **1388-B:** Captain Flint and a Long Voyage
+- **1388-C:** Uncle Bogdan and Country Happiness
+- **1388-D:** Captain Flint and Treasure
 - **1389-A:** LCM Problem
 - **1389-B:** Array Walk
 - **1389-C:** Good String
