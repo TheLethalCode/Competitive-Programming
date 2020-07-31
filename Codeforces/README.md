@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (568)
+## PROBLEMS (572)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -40,6 +40,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **919-D:** Substring
 - **925-B:** Resource Distribution
 - **957-D:** Riverside Curio
+- **989-A:** A Blend of Springtime
+- **989-B:** A Tide of Riverscape
+- **989-C:** A Mist of Florescence
+- **989-D:** A Shade of Moonlight
 - **999-A:** Mishka and Contest
 - **999-B:** Reversing Encryption
 - **999-C:** Alphabetic Removals
