@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (572)
+## PROBLEMS (574)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -569,8 +569,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1388-B:** Captain Flint and a Long Voyage
 - **1388-C:** Uncle Bogdan and Country Happiness
 - **1388-D:** Captain Flint and Treasure
+- **1388-E:** Uncle Bogdan and Projections
 - **1389-A:** LCM Problem
 - **1389-B:** Array Walk
 - **1389-C:** Good String
 - **1389-D:** Segment Intersections
 - **1389-E:** Calendar Ambiguity
+- **1389-F:** Bicolored Segments

@@ -4,10 +4,11 @@ This repository holds my constantly updating implementations of common algorithm
 
 ## Algorithms and Data Structures
 
+- convexHullTrick: Convex Hull Trick (Data structure for finding extreme from a set of linear functions)
 - DSU: Disjoint Set Union
+- floydWarshall: Floyd-Warshall (All pair shortest path)
 - gaussElimination: Gaussian Elimination (System of Linear Equations)
 - maximumBipartiteMatching: Maximum Bipartite Matching (using augmenting paths)
 - mergeTree: Merge Sort Tree (with fractional cascading)
-- segTree: Segment Tree
 - SCC: Strongly Connected Components (Directed Graph)
-- floydWarshall: Floyd-Warshall (All pair shortest path)
+- segTree: Segment Tree
