@@ -18,7 +18,7 @@ using namespace std;
 
 int M[1005], vis[1005];
 vector< int > ed[1005];
-int s, b, k, h;
+int s, b;
 
 // M[v] = u or 0 , u∈L, v∈R  #Match for v, 0 means unmatched
 // |L| = s, |R| = b

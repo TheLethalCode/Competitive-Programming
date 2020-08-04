@@ -13,7 +13,6 @@ using namespace std;
 #define FORR(x,v) for(auto x : v)
 #define sz(a) (int)(a.size())
 #define MAXC 300005
-#define RANGE 1000000
 #define ordered_set tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update>
 // %
 
@@ -23,7 +22,8 @@ struct data{
     bool exist, lazy;
 
     data(): exist(false) {} 
-    data(lli v) : x(v), exist(true), lazy(false) {}
+    data(lli v) : x(v), exist(true), lazy(false), lazyVal(0) {}
+
     // Node combination
     data operator+(data r){
         if(!r.exist) return *this;
@@ -31,10 +31,12 @@ struct data{
         data ans(min(x, r.x));
         return ans;
     }
+    
     // Lazy updation
     void upd(){
         x += lazyVal;
         lazy = false;
+        lazyVal = 0;
     }
 };
 
@@ -78,7 +80,7 @@ struct seg_tree{
         }
         if(l>=i && r<=j){
             tr[ind].lazy = true;
-            tr[ind].lazyVal = x;
+            tr[ind].lazyVal += x;
             pushdown(ind, l, r);
             return;
         }
@@ -88,10 +90,10 @@ struct seg_tree{
         tr[ind] = tr[ind<<1] + tr[ind<<1|1];
     }
     data query1(int i, int j, int l, int r, int ind){
-        pushdown(ind, l, r);
         if(i>r || j<l || l>r){
             return data();
         }
+        pushdown(ind, l, r);
         if(l>=i && r<=j){
             return tr[ind];
         }
@@ -102,5 +104,7 @@ struct seg_tree{
         data temp = query1(i, j, 0, n-1, 1); 
         return temp.x;
     }
-    void upd(lli x, int i, int j){ update(x, i , j, 0, n-1, 1); }
+    void upd(lli x, int i, int j){ 
+        update(x, i , j, 0, n-1, 1); 
+    }
 };

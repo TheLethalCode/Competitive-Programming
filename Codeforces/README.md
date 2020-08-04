@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (574)
+## PROBLEMS (578)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -53,7 +53,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1010-B:** Rocket
 - **1016-C:** Vasya And The Mushrooms
 - **1036-C:** Classy Numbers
+- **1037-E:** Trips
 - **1039-C:** Network Safety
+- **1045-D:** Interstellar battle
+- **1045-G:** AI robots
 - **1059-D:** Nature Reserve
 - **1061-C:** Multiplicity
 - **1065-D:** Three Pieces
@@ -144,6 +147,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1136-A:** Nastya Is Reading a Book
 - **1136-B:** Nastya Is Playing Computer Games
 - **1136-C:** Nastya Is Transposing Matrices
+- **1136-E:** Nastya Hasn't Written a Legend
 - **1138-A:** Sushi for Two
 - **1138-B:** Circus
 - **1138-C:** Skyscrapers
