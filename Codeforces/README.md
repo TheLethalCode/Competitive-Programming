@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (578)
+## PROBLEMS (589)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -44,6 +44,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **989-B:** A Tide of Riverscape
 - **989-C:** A Mist of Florescence
 - **989-D:** A Shade of Moonlight
+- **998-A:** Balloons
+- **998-B:** Cutting
+- **998-C:** Convert to Ones
+- **998-D:** Roman Digits
 - **999-A:** Mishka and Contest
 - **999-B:** Reversing Encryption
 - **999-C:** Alphabetic Removals
@@ -568,6 +572,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1385-C:** Make It Good
 - **1385-D:** a-Good String
 - **1385-E:** Directing Edges
+- **1385-F:** Removing Leaves
 - **1385-G:** Columns Swaps
 - **1388-A:** Captain Flint and Crew Recruitment
 - **1388-B:** Captain Flint and a Long Voyage
@@ -580,3 +585,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1389-D:** Segment Intersections
 - **1389-E:** Calendar Ambiguity
 - **1389-F:** Bicolored Segments
+- **1399-A:** Remove Smallest
+- **1399-B:** Gifts Fixing
+- **1399-C:** Boats Competition
+- **1399-D:** Binary String To Subsequences
+- **1399-E1:** Weights Division (easy version)
+- **1399-E2:** Weights Division (hard version)
