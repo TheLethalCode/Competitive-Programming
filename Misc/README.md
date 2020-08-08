@@ -40,3 +40,14 @@ The codes for the Hacker Cup Contest orgainzed by FaceBook for the year 2020
   - Problem B : Alchemy
   - Problem C : Timber
   - Problem D : Running on Fumes
+
+## GOC CDC Series 6
+
+These are the codes for the [contest](https://www.hackerrank.com/contests/goc-cdc-series-6/challenges) organized by GoC.
+
+- Play Hard Study Harder
+- PingPong
+- Vist Them All
+- Office Party
+- Deku and His Extended Love For Primes
+- Subteam Formation

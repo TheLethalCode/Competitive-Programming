@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (589)
+## PROBLEMS (593)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -585,6 +585,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1389-D:** Segment Intersections
 - **1389-E:** Calendar Ambiguity
 - **1389-F:** Bicolored Segments
+- **1393-A:** Rainbow Dash, Fluttershy and Chess Coloring
+- **1393-B:** Applejack and Storages
+- **1393-C:** Pinkie Pie Eats Patty-cakes
+- **1393-D:** Rarity and New Dress
 - **1399-A:** Remove Smallest
 - **1399-B:** Gifts Fixing
 - **1399-C:** Boats Competition
