@@ -12,3 +12,8 @@ Solutions to various problems from CodeChef
   - BINFUN: Binary Concatenation
   - GOLOMB: Golomb Sequence
   - PRT2: Profitable Paths 2
+- AUG20A
+  - SKMP: Smallest KMP
+  - CHEFWED: Chef and Wedding
+  - SUBSFREQ: Subsequence Frequency
+  - ACCBIP: Insanely Hard School Exams

@@ -41,6 +41,11 @@ The codes for the Hacker Cup Contest orgainzed by FaceBook for the year 2020
   - Problem C : Timber
   - Problem D : Running on Fumes
 
+- Round 1
+  - Problem A : Perimetric
+  - Problem B : Dislodging Logs
+  - Problem C : Quarantine
+
 ## GOC CDC Series 6
 
 These are the codes for the [contest](https://www.hackerrank.com/contests/goc-cdc-series-6/challenges) organized by GoC.

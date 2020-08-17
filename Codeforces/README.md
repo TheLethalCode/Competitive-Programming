@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (593)
+## PROBLEMS (617)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -44,6 +44,11 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **989-B:** A Tide of Riverscape
 - **989-C:** A Mist of Florescence
 - **989-D:** A Shade of Moonlight
+- **996-A:** Hit the Lottery
+- **996-B:** World Cup
+- **996-C:** Tesla
+- **996-D:** Suit and Tie
+- **996-E:** Leaving the Bar
 - **998-A:** Balloons
 - **998-B:** Cutting
 - **998-C:** Convert to Ones
@@ -585,10 +590,29 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1389-D:** Segment Intersections
 - **1389-E:** Calendar Ambiguity
 - **1389-F:** Bicolored Segments
+- **1391-A:** Suborrays
+- **1391-B:** Fix You
+- **1391-C:** Cyclic Permutations
+- **1391-D:** 505
+- **1392-A:** Omkar and Password
+- **1392-B:** Omkar and Infinity Clock
+- **1392-C:** Omkar and Waterslide
+- **1392-D:** Omkar and Bed Wars
+- **1392-E:** Omkar and Duck
+- **1392-F:** Omkar and Landslide
 - **1393-A:** Rainbow Dash, Fluttershy and Chess Coloring
 - **1393-B:** Applejack and Storages
 - **1393-C:** Pinkie Pie Eats Patty-cakes
 - **1393-D:** Rarity and New Dress
+- **1394-A:** Boboniu Chats with Du
+- **1394-B:** Boboniu Walks on Graph
+- **1394-C:** Boboniu and String
+- **1398-A:** Bad Triangle
+- **1398-B:** Substring Removal Game
+- **1398-C:** Good Subarrays
+- **1398-D:** Colored Rectangles
+- **1398-E:** Two Types of Spells
+- **1398-F:** Controversial Rounds
 - **1399-A:** Remove Smallest
 - **1399-B:** Gifts Fixing
 - **1399-C:** Boats Competition
