@@ -17,3 +17,4 @@ Solutions to various problems from CodeChef
   - CHEFWED: Chef and Wedding
   - SUBSFREQ: Subsequence Frequency
   - ACCBIP: Insanely Hard School Exams
+  - CHEFCOMP: Chefina and Strange Trees

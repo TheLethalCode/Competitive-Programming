@@ -19,6 +19,7 @@ using namespace std;
 class DSU{
     int n;
     vector< int > par;
+public:
     DSU(int _n) : n(_n) {
         par.resize(n+1);
         iota(par.begin(), par.end(), 0);
@@ -35,4 +36,4 @@ class DSU{
         par[y] = x;
         return true;
     }
-}
+};
