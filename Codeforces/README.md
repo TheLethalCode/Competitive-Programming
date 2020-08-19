@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (617)
+## PROBLEMS (639)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -40,10 +40,22 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **919-D:** Substring
 - **925-B:** Resource Distribution
 - **957-D:** Riverside Curio
+- **978-A:** Remove Duplicates
+- **978-B:** File Name
+- **978-C:** Letters
+- **978-D:** Almost Arithmetic Progression
+- **978-E:** Bus Video System
+- **978-F:** Mentors
+- **978-G:** Petya's Exams
 - **989-A:** A Blend of Springtime
 - **989-B:** A Tide of Riverscape
 - **989-C:** A Mist of Florescence
 - **989-D:** A Shade of Moonlight
+- **992-A:** Nastya and an Array
+- **992-B:** Nastya Studies Informatics
+- **992-C:** Nastya and a Wardrobe
+- **992-D:** Nastya and a Game
+- **992-E:** Nastya and King-Shamans
 - **996-A:** Hit the Lottery
 - **996-B:** World Cup
 - **996-C:** Tesla
@@ -59,6 +71,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **999-D:** Equalize the Remainders
 - **999-E:** Reachability from the Capital
 - **999-F:** Cards and Joy
+- **1006-A:** Adjacent Replacements
+- **1006-B:** Polycarp's Practice
+- **1006-C:** Three Parts of the Array
+- **1006-D:** Two Strings Swaps
+- **1006-E:** Military Problem
+- **1006-F:** Xor-Paths
 - **1010-B:** Rocket
 - **1016-C:** Vasya And The Mushrooms
 - **1036-C:** Classy Numbers
@@ -164,6 +182,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1139-A:** Even Substrings
 - **1139-B:** Chocolates
 - **1139-C:** Edgy Trees
+- **1139-D:** Steps to One
 - **1140-A:** Detective Book
 - **1140-B:** Good String
 - **1140-C:** Playlist
@@ -440,6 +459,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1338-C:** Perfect Triples
 - **1340-B:** Nastya and Scoreboard
 - **1342-D:** Multiple Testcases
+- **1342-E:** Placing Rooks
 - **1343-D:** Constant Palindrome Sum
 - **1343-E:** Weights Distributing
 - **1345-A:** Puzzle Pieces
@@ -559,6 +579,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1379-A:** Acacius and String
 - **1379-B:** Dubious Cyrpto
 - **1379-C:** Choosing flowers
+- **1379-D:** New Passenger Trams
 - **1380-A:** Three Indices
 - **1380-B:** Universal Solution
 - **1380-C:** Create The Teams
@@ -619,3 +640,4 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1399-D:** Binary String To Subsequences
 - **1399-E1:** Weights Division (easy version)
 - **1399-E2:** Weights Division (hard version)
+- **1399-F:** Yet Another Segments Subset
