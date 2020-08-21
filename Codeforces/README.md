@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (639)
+## PROBLEMS (654)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -56,6 +56,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **992-C:** Nastya and a Wardrobe
 - **992-D:** Nastya and a Game
 - **992-E:** Nastya and King-Shamans
+- **994-A:** Fingerprints
+- **994-B:** Knights of a Polygonal Table
+- **994-C:** Two Squares
+- **994-D:** Open Communication
+- **994-E:** Careful Maneuvering
+- **994-F:** Compute Power
 - **996-A:** Hit the Lottery
 - **996-B:** World Cup
 - **996-C:** Tesla
@@ -394,6 +400,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1304-C:** Air Conditioner
 - **1304-D:** Shortest and Longest LIS
 - **1304-E:** 1-Trees and Queries
+- **1304-F1:** Animal Observation (easy version)
 - **1305-A:** Kuroni and the Gifts
 - **1305-B:** Kuroni and Simple Strings
 - **1305-C:** Kuroni and Impossible Calculation
@@ -419,10 +426,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1316-B:** String Modification
 - **1316-C:** Primitive Primes
 - **1316-D:** Nash Matrix
+- **1316-E:** Team Building
 - **1320-C:** World of Darkraft: Battle for Azathoth
 - **1321-A:** Contest for Robots
 - **1321-B:** Journey Planning
 - **1321-C:** Remove Adjacent
+- **1322-C:** Instant Noodles
 - **1323-A:** Even Subset Sum Problem
 - **1323-B:** Count Subrectangles
 - **1323-C:** Unusual Competitions
@@ -641,3 +650,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1399-E1:** Weights Division (easy version)
 - **1399-E2:** Weights Division (hard version)
 - **1399-F:** Yet Another Segments Subset
+- **1401-A:** Distance and Axis
+- **1401-B:** Ternary Sequence
+- **1401-C:** Mere Array
+- **1401-D:** Maximum Distributed Tree
+- **1401-E:** Divide Square
+- **1401-F:** Reverse and Swap
