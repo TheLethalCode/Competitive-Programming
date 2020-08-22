@@ -46,7 +46,11 @@ The codes for the Hacker Cup Contest orgainzed by FaceBook for the year 2020
   - Problem B : Dislodging Logs
   - Problem C : Quarantine
 
-## GOC CDC Series 6
+## KGP
+
+These are the codes for the contests orgainzed in KGP.
+
+### GOC-CDC-6
 
 These are the codes for the [contest](https://www.hackerrank.com/contests/goc-cdc-series-6/challenges) organized by GoC.
 
@@ -56,3 +60,14 @@ These are the codes for the [contest](https://www.hackerrank.com/contests/goc-cd
 - Office Party
 - Deku and His Extended Love For Primes
 - Subteam Formation
+
+### CodeNites
+
+These are the codes for the [CodeNite](https://www.hackerrank.com/contests/codenite-v1/challenges) organized by CodeClub.
+
+- Breaking Vectors
+- Immortal Investor
+- Min Core
+- ZigZag Sort
+- KTHVAL
+- Bits Gone Wild
