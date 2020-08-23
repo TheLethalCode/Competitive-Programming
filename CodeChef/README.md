@@ -18,3 +18,6 @@ Solutions to various problems from CodeChef
   - SUBSFREQ: Subsequence Frequency
   - ACCBIP: Insanely Hard School Exams
   - CHEFCOMP: Chefina and Strange Trees
+- COOK121A
+  - POLYREL: Polygon Relationship
+  - RBTREES: Red Blue Trees

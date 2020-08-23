@@ -67,7 +67,7 @@ These are the codes for the [contest](https://www.hackerrank.com/contests/goc-cd
 - Deku and His Extended Love For Primes
 - Subteam Formation
 
-### CodeNites
+### CodeNites1
 
 These are the codes for the [CodeNite](https://www.hackerrank.com/contests/codenite-v1/challenges) organized by CodeClub.
 
@@ -77,3 +77,4 @@ These are the codes for the [CodeNite](https://www.hackerrank.com/contests/coden
 - ZigZag Sort
 - KTHVAL
 - Bits Gone Wild
+- Three Knights
