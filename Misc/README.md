@@ -31,6 +31,12 @@ The codes for the Kickstart Contest orgainzed by Google for the year 2020
   - Problem C : Beauty of Tree
   - Problem D : Locked Doors
 
+- Round E
+  - Problem A : Longest Arithmetic
+  - Problem B : High Buildings
+  - Problem C : Toys
+  - Problem D : Golden Stone
+
 ## FB HackerCup 2020
 
 The codes for the Hacker Cup Contest orgainzed by FaceBook for the year 2020
