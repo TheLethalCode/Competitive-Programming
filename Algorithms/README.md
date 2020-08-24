@@ -6,6 +6,7 @@ This repository holds my constantly updating implementations of common algorithm
 
 - convexHullTrick: Convex Hull Trick (Data structure for finding extreme from a set of linear functions)
 - DSU: Disjoint Set Union
+- edmondKarp: Edmond-Karp's Algorithm (Max Flow)
 - floydWarshall: Floyd-Warshall (All pair shortest path)
 - gaussElimination: Gaussian Elimination (System of Linear Equations)
 - maximumBipartiteMatching: Maximum Bipartite Matching (using augmenting paths)

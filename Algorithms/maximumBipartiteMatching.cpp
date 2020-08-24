@@ -26,7 +26,7 @@ int s, b;
 int dfs(int u){
     vis[u] = 1;
     FORR(v, ed[u]){
-        if(!M[v] || (!vis[M[v]]&&dfs(M[v]))){
+        if(!M[v] || (!vis[M[v]] && dfs(M[v]))){
             M[v] = u;
             return 1;
         }
