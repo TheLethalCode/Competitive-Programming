@@ -11,5 +11,6 @@ This repository holds my constantly updating implementations of common algorithm
 - gaussElimination: Gaussian Elimination (System of Linear Equations)
 - maximumBipartiteMatching: Maximum Bipartite Matching (using augmenting paths)
 - mergeTree: Merge Sort Tree (with fractional cascading)
+- linearsieve: Linear Sieve of Eratosthenes (Used for finding prime numbers and values of multiplicative functions)
 - SCC: Strongly Connected Components (Directed Graph)
 - segTree: Segment Tree

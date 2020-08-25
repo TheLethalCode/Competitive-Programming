@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (655)
+## PROBLEMS (657)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -17,7 +17,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **407-A:** Triangle
 - **407-B:** Long Path
 - **429-B:** Working out
+- **439-E:** Devu and Birthday Celebration
 - **451-D:** Count Good Substrings
+- **451-E:** Devu and Flowers
 - **478-D:** Red-Green Towers
 - **484-B:** Maximum Value
 - **487-A:** Fight the Monster
