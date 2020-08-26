@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (657)
+## PROBLEMS (663)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -653,6 +653,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1399-E1:** Weights Division (easy version)
 - **1399-E2:** Weights Division (hard version)
 - **1399-F:** Yet Another Segments Subset
+- **1400-A:** String Similarity
+- **1400-B:** RPG Protagonist
+- **1400-C:** Binary String Reconstruction
+- **1400-D:** Zigzags
+- **1400-E:** Clear the Multiset
+- **1400-G:** Mercenaries
 - **1401-A:** Distance and Axis
 - **1401-B:** Ternary Sequence
 - **1401-C:** Mere Array
