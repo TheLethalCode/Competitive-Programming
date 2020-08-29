@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (663)
+## PROBLEMS (666)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -26,7 +26,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **498-C:** Array and Operations
 - **510-D:** Fox And Jumping
 - **520-B:** Two Buttons
+- **597-C:** Subsequences
 - **609-E:** Minimum spanning tree for each edge
+- **707-E:** Garlands
+- **749-E:** Inversions After Shuffle
 - **767-A:** Snacktower
 - **767-B:** The Queue
 - **777-D:** Cloud of Hashtags

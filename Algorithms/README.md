@@ -4,6 +4,7 @@ This repository holds my constantly updating implementations of common algorithm
 
 ## Algorithms and Data Structures
 
+- BIT: Binary Indexed Tree (Range operation Data Structure)
 - convexHullTrick: Convex Hull Trick (Data structure for finding extreme from a set of linear functions)
 - DSU: Disjoint Set Union
 - edmondKarp: Edmond-Karp's Algorithm (Max Flow)
