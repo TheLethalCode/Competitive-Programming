@@ -11,18 +11,17 @@ using namespace std;
 #define pb emplace_back
 #define FOR(i,n) for(int i=0;i<n;i++)
 #define FORR(x,v) for(auto x : v)
-#define sz(a) (int)(a.size())
-#define MAXC 200005
 #define ordered_set tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update>
-
+#define MAXC 200005
 // %
+
 class DSU{
     int n;
     vector< int > par, siz;
 public:
     DSU(int _n) : n(_n) {
         par.resize(n+1);
-        siz.assign(n+1, 0);
+        siz.resize(n+1, 1);
         iota(par.begin(), par.end(), 0);
     }
     int fp(int x){
@@ -34,11 +33,30 @@ public:
         if(x == y){
             return false;
         }
-        if (siz[x] < siz[y]) {
-            swap(x, y);
-        }
         par[y] = x;
         siz[x] += siz[y];
         return true;
     }
+    int si(int a) {
+        return siz[fp(a)];
+    }
 };
+
+int main(int argc, char **argv)
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int n, m;
+    cin >> n >> m;
+    DSU A(n);
+    for (int i = 0; i < m; i++) {
+        int a, b;
+        cin >> a >> b;
+        A.unite(a, b);
+    }
+    int x = 0;
+    for (int i = 1; i <= n; i++) {
+        x = max(x, A.si(i));
+    }
+    cout << x << '\n';
+}

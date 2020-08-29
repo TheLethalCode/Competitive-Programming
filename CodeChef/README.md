@@ -21,3 +21,9 @@ Solutions to various problems from CodeChef
 - COOK121A
   - POLYREL: Polygon Relationship
   - RBTREES: Red Blue Trees
+- LTIME87A
+  - ARRGAME: Game on Strip
+  - ALIENIN: Alien Invasion
+  - CNTGRP: Counting Graphs
+  - SHENQ: Quest for Dragon Balls (Partial)
+

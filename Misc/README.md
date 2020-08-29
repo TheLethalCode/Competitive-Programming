@@ -52,6 +52,11 @@ The codes for the Hacker Cup Contest orgainzed by FaceBook for the year 2020
   - Problem B : Dislodging Logs
   - Problem C : Quarantine
 
+- Round 2
+  - Problem A : Ca-pasta-ty
+  - Problem B : Elimination 
+
+
 ## KGP
 
 These are the codes for the contests orgainzed in KGP.
