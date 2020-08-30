@@ -8,4 +8,3 @@ Solutions to contests hosted in AtCoder
 - ProblemC : Sum of Product Pairs
 - ProblemD : Friends
 - ProblemE : Coprime
-- ProblemF : I Hate Shortest Path Problem (Placeholder)

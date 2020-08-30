@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (666)
+## PROBLEMS (669)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -643,6 +643,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1394-A:** Boboniu Chats with Du
 - **1394-B:** Boboniu Walks on Graph
 - **1394-C:** Boboniu and String
+- **1396-A:** Multiples of Length
+- **1396-B:** Stoned Game
+- **1397-B:** Power Sequence
 - **1398-A:** Bad Triangle
 - **1398-B:** Substring Removal Game
 - **1398-C:** Good Subarrays
