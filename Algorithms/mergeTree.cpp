@@ -15,7 +15,9 @@ using namespace std;
 #define MAXC 200005
 #define ordered_set tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update>
 // MERGE SORT TREE WITH FRACTIONAL CASCADING
-// NUMBER OF ELEMENTS STRICTLY LESS THAN K IN O(logN)
+// 1. NUMBER OF ELEMENTS STRICTLY LESS THAN K IN O(logN)
+
+// 2. Kth Smallest Element In Range. Load Merge Tree With Sorted Array Replaced With Indexes in Original Array.
 
 struct data{
     int q, l, r;
@@ -79,6 +81,27 @@ struct merge_sort_tree{
             return l.q < r.q;
         }) - tr[1].begin();
         return query1(i, j, 0, n-1, pos, 1);
+    }
+
+    // Find kth smallest number not in range i, j
+    int Qkth(int k, int posr, int posl, int l, int r, int ind) {
+        if (l == r) {
+            return tr[ind][0].q;
+        }
+        int mid = l + r >> 1, ls = tr[ind<<1].size() - tr[ind][posr].l + tr[ind][posl].l - 1;
+        if (ls >= k) {
+            return Qkth(k, tr[ind][posr].l, tr[ind][posl].l, l, mid, ind << 1);
+        }
+        return Qkth(k - ls, tr[ind][posr].r, tr[ind][posl].r, mid + 1, r, ind << 1 | 1);
+    }
+    int kth(int k, int i, int j) {
+        int posr = upper_bound(tr[1].begin(), tr[1].end(), j, [](data l, data r){
+            return l.q < r.q;
+        }) - tr[1].begin();
+        int posl = lower_bound(tr[1].begin(), tr[1].end(), i, [](data l, data r){
+            return l.q < r.q;
+        }) - tr[1].begin();
+        return Qkth(k, posr, posl, 0, n-1, 1);
     }
 };
 

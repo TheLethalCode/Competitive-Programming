@@ -26,4 +26,13 @@ Solutions to various problems from CodeChef
   - ALIENIN: Alien Invasion
   - CNTGRP: Counting Graphs
   - SHENQ: Quest for Dragon Balls (Partial)
+- SEPT20A
+  - ADAMAT: Ada Matrix
+  - CHEFNSWP: Chefina and Swap
+  - FINXOR: Find XOR
+  - CRDGAME2: Chef and Trump Cards
+  - EQDIV: Divide Candies
+  - ROTATPOL: Rotate Polyline
+  - MVCN2TST: Move the Coins - Creating Tests
+  - 
 

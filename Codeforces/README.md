@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (669)
+## PROBLEMS (691)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -671,3 +671,25 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1401-D:** Maximum Distributed Tree
 - **1401-E:** Divide Square
 - **1401-F:** Reverse and Swap
+- **1404-A:** Balanced Bitstring
+- **1404-B:** Tree Tag
+- **1404-C:** Fixed Point Removal
+- **1406-A:** Subset Mex
+- **1406-B:** Maximum Product
+- **1406-C:** Link Cut Centroids
+- **1406-D:** Three Sequences
+- **1407-A:** Ahahahahahahahaha
+- **1407-B:** Big Vova
+- **1407-C:** Chocolate Bunny
+- **1407-D:** Discrete Centrifugal Jumps
+- **1407-E:** Egor in the Republic of Dagestan
+- **1418-A:** Buying Torches
+- **1418-B:** Negative Prefixes
+- **1418-C:** Mortal Kombat Tower
+- **1418-D:** Trash Problem
+- **1418-E:** Expected Damage
+- **1419-A:** Digit Game
+- **1419-B:** Stairs
+- **1419-C:** Killjoy
+- **1419-D1:** Sage's Birthday (easy version)
+- **1419-D2:** Sage's Birthday (hard version)
