@@ -12,6 +12,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 ## PROBLEMS ({})
 """
 
+DONOT = ["1090"]
+
 # Key function for sorting
 def sort_key(elem):
     return "{:05d}{}".format(elem[0],elem[1])
@@ -43,15 +45,21 @@ def find_name(prob):
     START = "<div class=\"title\">"
     END = "</div>"
 
-    URL = baseURL + prob[0]+"/"+prob[1]
-    request = rq.get(URL)
-    page = request.text
-    ind = page.find(START)
-    page = page[ind+len(START)+2:]
-    ind = page.find(END)
-    name = page[:ind].strip()
-    if name[0] == '.':
-        name = name[1:].strip()
+    if prob[0] in DONOT:
+        print("Manual Name Input ", prob, ": ")
+        name = input()
+
+    else:
+        URL = baseURL + prob[0]+"/"+prob[1]
+        request = rq.get(URL)
+        page = request.text
+        ind = page.find(START)
+        page = page[ind+len(START)+2:]
+        ind = page.find(END)
+        name = page[:ind].strip()
+        if name[0] == '.':
+            name = name[1:].strip()
+
     return name
 
 

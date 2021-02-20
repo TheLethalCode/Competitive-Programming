@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (691)
+## PROBLEMS (712)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -106,6 +106,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1091-C:** New Year and the Sphere Transmission
 - **1092-D1:** Great Vova Wall (Version 1)
 - **1092-D2:** Great Vova Wall (Version 2)
+- **1092-E:** Minimal Diameter Forest
 - **1097-A:** Gennady and a Card Game
 - **1097-B:** Petr and a Combination Lock
 - **1097-C:** Yuhao and a Parenthesis
@@ -683,6 +684,11 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1407-C:** Chocolate Bunny
 - **1407-D:** Discrete Centrifugal Jumps
 - **1407-E:** Egor in the Republic of Dagestan
+- **1409-A:** Yet Another Two Integers Problem
+- **1409-B:** Minimum Product
+- **1409-C:** Yet Another Array Restoration
+- **1409-D:** Decrease the Sum of Digits
+- **1409-E:** Two Platforms
 - **1418-A:** Buying Torches
 - **1418-B:** Negative Prefixes
 - **1418-C:** Mortal Kombat Tower
@@ -693,3 +699,17 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1419-C:** Killjoy
 - **1419-D1:** Sage's Birthday (easy version)
 - **1419-D2:** Sage's Birthday (hard version)
+- **1430-A:** Number of Apartments
+- **1430-B:** Barrels
+- **1430-C:** Numbers on Whiteboard
+- **1430-D:** String Deletion
+- **1430-E:** String Reversal
+- **1437-A:** Marketing Scheme
+- **1437-B:** Reverse Binary Strings
+- **1437-C:** Chef Monocarp
+- **1437-D:** Minimal Height Tree
+- **1437-E:** Make It Increasing
+- **1453-A:** Cancel the Trains
+- **1453-B:** Suffix Operations
+- **1453-C:** Triangles
+- **1453-D:** Checkpoints
