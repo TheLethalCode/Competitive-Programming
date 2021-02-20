@@ -45,20 +45,15 @@ def find_name(prob):
     START = "<div class=\"title\">"
     END = "</div>"
 
-    if prob[0] in DONOT:
-        print("Manual Name Input ", prob, ": ")
-        name = input()
-
-    else:
-        URL = baseURL + prob[0]+"/"+prob[1]
-        request = rq.get(URL)
-        page = request.text
-        ind = page.find(START)
-        page = page[ind+len(START)+2:]
-        ind = page.find(END)
-        name = page[:ind].strip()
-        if name[0] == '.':
-            name = name[1:].strip()
+    URL = baseURL + prob[0]+"/"+prob[1]
+    request = rq.get(URL)
+    page = request.text
+    ind = page.find(START)
+    page = page[ind+len(START)+2:]
+    ind = page.find(END)
+    name = page[:ind].strip()
+    if name[0] == '.':
+        name = name[1:].strip()
 
     return name
 
@@ -77,6 +72,8 @@ def find_names(files):
         for ind, el in enumerate(file):
             if not el.isdigit():
                 item = (file[:ind], file[ind:])
+                if item[0] in DONOT:
+                    break
                 name = find_name(item)
                 append_name(item, name)
                 print("- {}-{}: {}".format(item[0], item[1], name))
@@ -123,6 +120,11 @@ if __name__ == '__main__':
             for ind, el in enumerate(file):
                 if not el.isdigit():
                     item = file[:ind]
+                    
+                    if item in DONOT:
+                        print("Skipped " + file)
+                        break
+
                     if not os.path.exists(os.path.join(CODES, item)):
                         os.mkdir(os.path.join(CODES, item))
                     os.rename(os.path.join(CODES, file), os.path.join(CODES, item, file))

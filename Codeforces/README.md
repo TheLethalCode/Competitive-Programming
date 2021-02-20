@@ -103,6 +103,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1073-C:** Vasya and Robot
 - **1083-A:** The Fair Nut and the Best Path
 - **1089-A:** Alice the Fan
+- **1090-L:** Berland Universit
 - **1091-C:** New Year and the Sphere Transmission
 - **1092-D1:** Great Vova Wall (Version 1)
 - **1092-D2:** Great Vova Wall (Version 2)
@@ -712,4 +713,4 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1453-A:** Cancel the Trains
 - **1453-B:** Suffix Operations
 - **1453-C:** Triangles
-- **1453-D:** Checkpoints
+- **1453-D:** Checkpoint
