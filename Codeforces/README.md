@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (712)
+## PROBLEMS (719)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -690,6 +690,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1409-C:** Yet Another Array Restoration
 - **1409-D:** Decrease the Sum of Digits
 - **1409-E:** Two Platforms
+- **1409-F:** Subsequences of Length Two
 - **1418-A:** Buying Torches
 - **1418-B:** Negative Prefixes
 - **1418-C:** Mortal Kombat Tower
@@ -700,6 +701,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1419-C:** Killjoy
 - **1419-D1:** Sage's Birthday (easy version)
 - **1419-D2:** Sage's Birthday (hard version)
+- **1420-A:** Cubes Sorting
+- **1420-B:** Rock and Lever
+- **1420-C1:** Pokémon Army (easy version)
+- **1420-C2:** Pokémon Army (hard version)
+- **1420-D:** Rescue Nibel!
+- **1420-E:** Battle Lemmings
 - **1430-A:** Number of Apartments
 - **1430-B:** Barrels
 - **1430-C:** Numbers on Whiteboard
