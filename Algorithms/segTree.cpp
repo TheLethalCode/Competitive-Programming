@@ -31,7 +31,7 @@ struct seg_tree{
             return ans;
         }
         // Lazy updation
-        void upd(){
+        void upd(int l, int r){
             x += lazyVal;
             lazy = false;
             lazyVal = 0;
@@ -55,7 +55,7 @@ struct seg_tree{
                 tr[ind<<1|1].lazyVal += tr[ind].lazyVal;
                 tr[ind<<1].lazy = tr[ind<<1|1].lazy = true;
             }
-            tr[ind].upd();
+            tr[ind].upd(l, r);
         }
     }
 

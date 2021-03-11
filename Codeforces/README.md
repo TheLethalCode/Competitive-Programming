@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (719)
+## PROBLEMS (757)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -685,12 +685,24 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1407-C:** Chocolate Bunny
 - **1407-D:** Discrete Centrifugal Jumps
 - **1407-E:** Egor in the Republic of Dagestan
+- **1408-A:** Circle Coloring
+- **1408-B:** Arrays Sum
+- **1408-C:** Discrete Acceleration
+- **1408-D:** Searchlights
+- **1408-E:** Avoid Rainbow Cycles
+- **1408-F:** Two Different
 - **1409-A:** Yet Another Two Integers Problem
 - **1409-B:** Minimum Product
 - **1409-C:** Yet Another Array Restoration
 - **1409-D:** Decrease the Sum of Digits
 - **1409-E:** Two Platforms
 - **1409-F:** Subsequences of Length Two
+- **1417-A:** Copy-paste
+- **1417-B:** Two Arrays
+- **1417-C:** k-Amazing Numbers
+- **1417-D:** Make Them Equal
+- **1417-E:** XOR Inverse
+- **1417-F:** Graph and Queries
 - **1418-A:** Buying Torches
 - **1418-B:** Negative Prefixes
 - **1418-C:** Mortal Kombat Tower
@@ -707,6 +719,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1420-C2:** Pokémon Army (hard version)
 - **1420-D:** Rescue Nibel!
 - **1420-E:** Battle Lemmings
+- **1426-A:** Floor Number
+- **1426-B:** Symmetric Matrix
+- **1426-C:** Increase and Copy
+- **1426-D:** Non-zero Segments
+- **1426-E:** Rock, Paper, Scissors
+- **1426-F:** Number of Subsequences
 - **1430-A:** Number of Apartments
 - **1430-B:** Barrels
 - **1430-C:** Numbers on Whiteboard
@@ -721,3 +739,23 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1453-B:** Suffix Operations
 - **1453-C:** Triangles
 - **1453-D:** Checkpoint
+- **1491-A:** K-th Largest Value
+- **1491-B:** Minimal Cost
+- **1491-C:** Pekora and Trampoline
+- **1491-D:** Zookeeper and The Infinite Zoo
+- **1491-E:** Fib-tree
+- **1491-F:** Magnets
+- **1493-A:** Anti-knapsack
+- **1493-B:** Planet Lapituletti
+- **1493-C:** K-beautiful Strings
+- **1493-D:** GCD of an Array
+- **1493-E:** Enormous XOR
+- **1494-A:** ABC String
+- **1494-B:** Berland Crossword
+- **1494-C:** 1D Sokoban
+- **1494-D:** Dogeforces
+- **1494-E:** A-Z Graph
+- **1495-A:** Diamond Miner
+- **1495-B:** Let's Go Hiking
+- **1495-C:** Garden of the Sun
+- **1495-D:** BFS Trees
