@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (757)
+## PROBLEMS (765)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -647,6 +647,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1394-C:** Boboniu and String
 - **1396-A:** Multiples of Length
 - **1396-B:** Stoned Game
+- **1396-C:** Monster Invaders
 - **1397-B:** Power Sequence
 - **1398-A:** Bad Triangle
 - **1398-B:** Substring Removal Game
@@ -713,6 +714,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1419-C:** Killjoy
 - **1419-D1:** Sage's Birthday (easy version)
 - **1419-D2:** Sage's Birthday (hard version)
+- **1419-E:** Decryption
 - **1420-A:** Cubes Sorting
 - **1420-B:** Rock and Lever
 - **1420-C1:** Pokémon Army (easy version)
@@ -759,3 +761,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1495-B:** Let's Go Hiking
 - **1495-C:** Garden of the Sun
 - **1495-D:** BFS Trees
+- **1496-A:** Split it!
+- **1496-B:** Max and Mex
+- **1500-A:** Going Home
+- **1500-B:** Two chandeliers
+- **1501-A:** Alexey and Train
+- **1501-B:** Napoleon Cake
