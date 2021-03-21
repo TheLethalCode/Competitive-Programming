@@ -1,12 +1,13 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (765)
+## PROBLEMS (784)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
 - **126-B:** Password
 - **242-C:** King's Path
+- **252-B:** IC "-//W3C//DTD HTML 4.01//EN">
 - **257-C:** View Angle
 - **264-B:** Good Sequences
 - **269-B:** Greenhouse Effect
@@ -28,6 +29,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **520-B:** Two Buttons
 - **597-C:** Subsequences
 - **609-E:** Minimum spanning tree for each edge
+- **625-A:** IC "-//W3C//DTD HTML 4.01//EN">
+- **698-B:** IC "-//W3C//DTD HTML 4.01//EN">
 - **707-E:** Garlands
 - **749-E:** Inversions After Shuffle
 - **767-A:** Snacktower
@@ -741,6 +744,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1453-B:** Suffix Operations
 - **1453-C:** Triangles
 - **1453-D:** Checkpoint
+- **1483-A:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1483-B:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1483-C:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1491-A:** K-th Largest Value
 - **1491-B:** Minimal Cost
 - **1491-C:** Pekora and Trampoline
@@ -763,6 +769,19 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1495-D:** BFS Trees
 - **1496-A:** Split it!
 - **1496-B:** Max and Mex
+- **1497-A:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1497-B:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1497-C1:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1497-C2:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1497-D:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1497-E1:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1497-E2:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1499-A:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1499-B:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1499-C:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1499-D:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1499-E:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1499-F:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1500-A:** Going Home
 - **1500-B:** Two chandeliers
 - **1501-A:** Alexey and Train

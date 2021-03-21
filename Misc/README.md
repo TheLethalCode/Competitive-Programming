@@ -37,6 +37,16 @@ The codes for the Kickstart Contest orgainzed by Google for the year 2020
   - Problem C : Toys
   - Problem D : Golden Stone
 
+## Kickstart 2021
+
+The codes for the Kickstart Contest orgainzed by Google for the year 2021
+
+- Round A
+  - Problem A : K-Goodness String
+  - Problem B : L Shaped Plots
+  - Problem C : Rabbit House
+  - Problem D : Checksum
+
 ## FB HackerCup 2020
 
 The codes for the Hacker Cup Contest orgainzed by FaceBook for the year 2020
