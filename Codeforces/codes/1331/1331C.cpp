@@ -15,22 +15,18 @@ using namespace std;
 #define MAXC 200005
 // %
 
-vector < int > prime, lp;
-void linearSieve(int n){
-    lp.resize(n + 1);
-    for (int i = 2; i <= n; i++) {
-        if (!lp[i]) {
-            prime.pb(i);
-            lp[i] = i;
-        }
-        for (auto p : prime) {
-            if (p * i > n) {
-                break;
-            }
-            lp[p * i] = p;
-            if (i % p == 0) {
-                break;
-            }
-        }
+int main(int argc, char **argv)
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int n;
+    cin >> n;
+    string s(6, '0');
+    for (int i = 0; i < 6; i++) {
+        s[5-i] = (n >> i & 1) + '0';
     }
+    swap(s[1], s[5]);
+    swap(s[2], s[3]);
+    bitset<6> ans(s);
+    cout << ans.to_ulong() << "\n";
 }

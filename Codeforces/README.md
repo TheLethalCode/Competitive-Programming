@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (784)
+## PROBLEMS (815)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -466,6 +466,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1328-E:** Tree Queries
 - **1328-F:** Make k Equal
 - **1329-A:** Dreamoon Likes Coloring
+- **1331-A:** Is it rated?
+- **1331-C:** ..And after happily lived ever they
 - **1332-E:** Height All the Same
 - **1333-D:** Challenges in school №41
 - **1333-F:** Kate and imperfection
@@ -712,6 +714,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1418-C:** Mortal Kombat Tower
 - **1418-D:** Trash Problem
 - **1418-E:** Expected Damage
+- **1418-F:** Equal Product
+- **1418-G:** Three Occurrences
 - **1419-A:** Digit Game
 - **1419-B:** Stairs
 - **1419-C:** Killjoy
@@ -724,6 +728,14 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1420-C2:** Pokémon Army (hard version)
 - **1420-D:** Rescue Nibel!
 - **1420-E:** Battle Lemmings
+- **1422-A:** Fence
+- **1422-B:** Nice Matrix
+- **1422-C:** Bargain
+- **1422-D:** Returning Home
+- **1422-E:** Minlexes
+- **1422-F:** Boring Queries
+- **1424-G:** Years
+- **1424-J:** Lonely Numbers
 - **1426-A:** Floor Number
 - **1426-B:** Symmetric Matrix
 - **1426-C:** Increase and Copy
@@ -747,6 +759,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1483-A:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1483-B:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1483-C:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1483-D:** Useful Edges
+- **1484-A:** Prison Break
+- **1484-B:** Restore Modulo
 - **1491-A:** K-th Largest Value
 - **1491-B:** Minimal Cost
 - **1491-C:** Pekora and Trampoline
@@ -776,6 +791,11 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1497-D:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1497-E1:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1497-E2:** IC "-//W3C//DTD HTML 4.01//EN">
+- **1498-A:** GCD Sum
+- **1498-B:** Box Fitting
+- **1498-C:** Planar Reflections
+- **1498-D:** Bananas in a Microwave
+- **1498-E:** Two Houses
 - **1499-A:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1499-B:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1499-C:** IC "-//W3C//DTD HTML 4.01//EN">
@@ -784,5 +804,16 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1499-F:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1500-A:** Going Home
 - **1500-B:** Two chandeliers
+- **1500-C:** Matrix Sorting
 - **1501-A:** Alexey and Train
 - **1501-B:** Napoleon Cake
+- **1503-A:** Balance the Bits
+- **1503-B:** 3-Coloring
+- **1503-C:** Travelling Salesman Problem
+- **1506-A:** Strange Table
+- **1506-B:** Partial Replacement
+- **1506-C:** Double-ended Strings
+- **1506-D:** Epic Transformation
+- **1506-E:** Restoring the Permutation
+- **1506-F:** Triangular Paths
+- **1506-G:** Maximize the Remaining String

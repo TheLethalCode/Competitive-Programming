@@ -12,16 +12,19 @@ using namespace std;
 #define FOR(i,n) for(int i=0;i<n;i++)
 #define FORR(x,v) for(auto x : v)
 #define ordered_set tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update>
-#define MAXC 200005
+#define MAXC 1000005
 // %
 
+int ans[MAXC];
 vector < int > prime, lp;
 void linearSieve(int n){
     lp.resize(n + 1);
     for (int i = 2; i <= n; i++) {
+        ans[i] = ans[i - 1];
         if (!lp[i]) {
             prime.pb(i);
             lp[i] = i;
+            ans[i]++;
         }
         for (auto p : prime) {
             if (p * i > n) {
@@ -32,5 +35,20 @@ void linearSieve(int n){
                 break;
             }
         }
+    }
+}
+
+int main(int argc, char **argv)
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    linearSieve(MAXC);
+    int t;
+    cin >> t;
+    while (t--) {
+        int n, root;
+        cin >> n;
+        root = sqrt(n) + 1;
+        cout << 1 + ans[n] - ans[root - 1] << "\n";
     }
 }

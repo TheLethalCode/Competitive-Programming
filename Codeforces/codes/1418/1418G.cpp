@@ -18,16 +18,23 @@ using namespace std;
 
 struct seg_tree{
     struct data{
-        lli x, lazyVal;
+        lli x, cnt, lazyVal;
         bool exist, lazy;
 
         data(): exist(false) {} 
-        data(lli v) : x(v), exist(true), lazy(false), lazyVal(0) {}
+        data(lli v, lli _cnt) : x(v), cnt(_cnt), exist(true), lazy(false), lazyVal(0) {}
         // Node combination
         data operator+(data r){
             if(!r.exist) return *this;
             if(!this->exist) return r;
-            data ans(max(x, r.x));
+            if (x < r.x) {
+                data ans(x, cnt);
+                return ans;
+            } else if (x > r.x) {
+                data ans(r.x, r.cnt);
+                return ans;
+            }
+            data ans(x, r.cnt + cnt);
             return ans;
         }
         // Lazy updation
@@ -41,12 +48,8 @@ struct seg_tree{
     vector< data > tr;
     seg_tree(int size){
         n = size;
-        tr.resize(4*n, data(0));
-    }
-    seg_tree(vector< lli > &v){
-        n = v.size();
-        tr.resize(4*n, data(0));
-        build(v, 0, n-1, 1);
+        tr.resize(4*n, data(0, 1));
+        build(0, n - 1, 1);
     }
     void pushdown(int ind, int l, int r){ // Lazy propagaton
         if(tr[ind].lazy){
@@ -59,14 +62,13 @@ struct seg_tree{
         }
     }
 
-    void build( vector< lli > &v, int l, int r, int ind){
+    void build(int l, int r, int ind){
         if(l==r){
-            tr[ind].x = v[l];
             return;
         }
         int mid = l+r>>1;
-        build(v, l, mid, ind<<1);
-        build(v, mid+1, r, ind<<1|1);
+        build(l, mid, ind<<1);
+        build(mid+1, r, ind<<1|1);
         tr[ind] = tr[ind<<1] + tr[ind<<1|1];
     }
     void update(lli x, int i, int j, int l, int r, int ind){
@@ -96,14 +98,15 @@ struct seg_tree{
         int mid=l+r>>1;
         return query1(i, j, l, mid, ind<<1) + query1(i, j, mid+1, r, ind<<1|1);
     }
-    lli query(int i, int j){ 
+    pair< lli, lli > query(int i, int j){ 
         data temp = query1(i, j, 0, n-1, 1); 
-        return temp.x;
+        return {temp.x, temp.cnt};
     }
     void upd(lli x, int i, int j){ 
         update(x, i , j, 0, n-1, 1); 
     }
 };
+// %
 
 int main(int argc, char **argv)
 {
@@ -111,34 +114,29 @@ int main(int argc, char **argv)
     cin.tie(0);
     int n;
     cin >> n;
-    vector< int > v(n), b(n), bef(n, -1);
-    vector< lli > dp(n);
+    vector< int > v(n), pos[n + 1];
     for (int i = 0; i < n; i++) {
         cin >> v[i];
+        pos[v[i]].pb(i);
     }
-    for (int i = 0; i < n; i++) {
-        cin >> b[i];
-    }
-    vector< pair< int, int > > sta = {{-1, n}};
-    for (int i = n - 1; i >= 0; i--) {
-        while (sta.back().fi > v[i]) {
-            bef[sta.back().se] = i;
-            sta.pop_back();  
-        }
-        sta.pb(v[i], i);
-    }
+    lli ans = 0;
     seg_tree sg(n);
-    sg.upd(b[0], 0, 0);
-    dp[0] = b[0];
-    for (int i = 1; i < n; i++) {
-        lli temp;
-        if (bef[i] != -1) {
-           temp = max(dp[bef[i]], sg.query(bef[i], i - 1) + b[i]);
-        } else {
-            temp = max(sg.query(0, i - 1) + b[i], (lli)b[i]);
+    for (int i = 0; i < n; i++) {
+        int cur = lower_bound(pos[v[i]].begin(), pos[v[i]].end(), i) - pos[v[i]].begin();
+        switch (cur) {
+            case 0: sg.upd(1, 0, i);
+                    break;
+            case 1: sg.upd(1, pos[v[i]][cur-1] + 1, i);
+                    break;
+            case 2: sg.upd(1, pos[v[i]][cur-1] + 1, i);
+                    sg.upd(-1, 0, pos[v[i]][cur-2]);
+                    break;
+            default: sg.upd(1, pos[v[i]][cur-1] + 1, i);
+                    sg.upd(1, cur == 3? 0: pos[v[i]][cur-4] + 1, pos[v[i]][cur-3]);
+                    sg.upd(-1, pos[v[i]][cur-3] + 1, pos[v[i]][cur-2]);
         }
-        sg.upd(temp, i, i);
-        dp[i] = temp;
+        auto temp = sg.query(0, i);
+        ans += temp.fi? 0: temp.se;
     }
-    cout << sg.query(n - 1, n - 1) << '\n';
+    cout << ans << "\n";
 }
