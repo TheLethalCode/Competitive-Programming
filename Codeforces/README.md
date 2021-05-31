@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (815)
+## PROBLEMS (821)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -756,18 +756,24 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1453-B:** Suffix Operations
 - **1453-C:** Triangles
 - **1453-D:** Checkpoint
+- **1475-G:** Strange Beauty
+- **1477-B:** Nezzar and Binary String
+- **1479-B1:** Painting the Array I
 - **1483-A:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1483-B:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1483-C:** IC "-//W3C//DTD HTML 4.01//EN">
 - **1483-D:** Useful Edges
 - **1484-A:** Prison Break
 - **1484-B:** Restore Modulo
+- **1486-C2:** Guessing the Greatest (hard version)
+- **1490-G:** Old Floppy Drive
 - **1491-A:** K-th Largest Value
 - **1491-B:** Minimal Cost
 - **1491-C:** Pekora and Trampoline
 - **1491-D:** Zookeeper and The Infinite Zoo
 - **1491-E:** Fib-tree
 - **1491-F:** Magnets
+- **1492-D:** Genius's Gambit
 - **1493-A:** Anti-knapsack
 - **1493-B:** Planet Lapituletti
 - **1493-C:** K-beautiful Strings
