@@ -4,7 +4,7 @@
 using namespace __gnu_pbds;
 using namespace std;
 
-#define mod 1000000007
+#define mod 998244353 
 #define lli long long
 #define fi first
 #define se second
@@ -43,6 +43,7 @@ int main(int argc, char **argv)
     for (int i = 0; i < n; i++) {
         sum -= 2 * v[i];
     }
+    sum %= mod;
     sum = sum * fact(2*n) % mod;
     sum = sum * modp(fact(n), mod - 2) % mod;
     sum = sum * modp(fact(n), mod - 2) % mod;

@@ -55,7 +55,7 @@ int main(int argc, char **argv)
     int t = 500, cnt = 0;
     for (int x = 1; x <= t; x++) {
         // auto = generateTest()
-        vector< string > v(100)
+        vector< string > v(100);
 
         vector< int > num(10000), diff(10000);
         for (int i = 0; i < 100; i++) {

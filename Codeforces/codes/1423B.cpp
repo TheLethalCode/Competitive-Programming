@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
@@ -8,13 +8,9 @@ using namespace std;
 #define lli long long
 #define fi first
 #define se second
-#define pb emplace_back
-#define FOR(i,n) for(int i=0;i<n;i++)
-#define FORR(x,v) for(auto x : v)
-#define sz(a) (int)(a.size())
-#define MAXC 200005
 #define ordered_set tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update>
-// %
+#define C1 200005
+#define C2 2005
 
 class KuhnsMatch {
     int n1, n2, m;
@@ -62,3 +58,39 @@ public:
         return ans;
     }
 };
+
+int n, m;
+bool check(int ind, vector< pair < int, pair < int, int > > > &edges) {
+    vector < pair < int, int > > E(ind + 1);
+    for (int i = 0; i <= ind; i++) {
+        E[i] = edges[i].se;
+    }
+    KuhnsMatch done(n, n, m);
+    done.initGraph(E);
+    return done.maxMatch() == n;
+}
+
+int main(int argc, char **argv)
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cin >> n >> m;
+    vector < pair < int, pair< int , int > > > E(m);
+    for (int i = 0; i < m; i++) {
+        cin >> E[i].se.fi >> E[i].se.se >> E[i].fi;
+        E[i].se.fi--;
+        E[i].se.se--;
+    }
+    sort(E.begin(), E.end());
+    int lo = 0, hi = m - 1, ret = -1;
+    while (lo <= hi) {
+        int mid = lo + hi >> 1;
+        if (check(mid, E)) {
+            ret = E[mid].fi;
+            hi = mid - 1;
+        } else {
+            lo = mid + 1;
+        }
+    }
+    cout << ret << "\n";
+}
