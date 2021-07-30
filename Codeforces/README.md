@@ -1,7 +1,7 @@
 # Codeforces Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
 
-## PROBLEMS (821)
+## PROBLEMS (830)
 - **53-C:** Little Frog
 - **71-C:** Round Table Knights
 - **121-A:** Lucky Sum
@@ -734,6 +734,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1422-D:** Returning Home
 - **1422-E:** Minlexes
 - **1422-F:** Boring Queries
+- **1423-B:** Valuable Paper
 - **1424-G:** Years
 - **1424-J:** Lonely Numbers
 - **1426-A:** Floor Number
@@ -742,20 +743,28 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1426-D:** Non-zero Segments
 - **1426-E:** Rock, Paper, Scissors
 - **1426-F:** Number of Subsequences
+- **1428-D:** Bouncing Boomerangs
 - **1430-A:** Number of Apartments
 - **1430-B:** Barrels
 - **1430-C:** Numbers on Whiteboard
 - **1430-D:** String Deletion
 - **1430-E:** String Reversal
+- **1436-D:** Bandit in a City
 - **1437-A:** Marketing Scheme
 - **1437-B:** Reverse Binary Strings
 - **1437-C:** Chef Monocarp
 - **1437-D:** Minimal Height Tree
 - **1437-E:** Make It Increasing
+- **1439-A2:** Binary Table (Hard Version)
+- **1444-B:** Divide and Sum
 - **1453-A:** Cancel the Trains
 - **1453-B:** Suffix Operations
 - **1453-C:** Triangles
 - **1453-D:** Checkpoint
+- **1463-D:** Pairs
+- **1467-C:** Three Bags
+- **1470-B:** Strange Definition
+- **1475-F:** Unusual Matrix
 - **1475-G:** Strange Beauty
 - **1477-B:** Nezzar and Binary String
 - **1479-B1:** Painting the Array I
